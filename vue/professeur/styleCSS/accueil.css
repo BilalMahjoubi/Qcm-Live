@@ -1,0 +1,101 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background-image: linear-gradient(to left, #DAE2F8 0%, #D6A4A4 51%, #DAE2F8 100%);
+	/* Ajout de la propriété avec les préfixes pour tous les moteurs de rendu */
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	background-size: cover;
+	font-family: 'R';
+}
+
+@font-face {
+	font-family: 'R';
+	src: url('Roboto-Regular.ttf');
+}
+
+.msg h3 {
+	display: flex;
+	justify-content: center;
+}
+
+.eleves {
+	border: 1px solid black;
+	order: -2;
+}
+
+.test {
+	border: 1px solid black;
+}
+
+.ajout {
+	border: 1px solid black;
+	order: -1;
+}
+
+#contient {
+	display: flex;
+	flex-wrap: wrap;
+	height: 300px;
+	align-items: center;
+	justify-content: space-around;
+}
+
+header {
+	width: 100%;
+}
+
+header nav ul {
+	overflow: hidden;
+	list-style: none;
+}
+
+header nav ul li a {
+	color: black;
+	padding: 20px;
+	display: block;
+	text-decoration: none;
+}
+header nav ul li a:hover {
+	background-image: linear-gradient(to right, #283048 0%, #859398 51%, #283048 100%);
+	border-top: 1px solid blue;
+	color: white;
+}
+
+header nav {
+	background-image: linear-gradient(to right, #757F9A 0%, #D7DDE8 51%, #757F9A 100%);
+	width: 50%;
+	height: 100%;
+	margin: 0;
+	display: none;
+	position: fixed;
+}
+
+header nav ul li {
+	display: block;
+	float: none;
+	border-bottom: 2px solid black;
+}
+
+.menu {
+	display: block;
+	width: 100%;
+	background: #ccc;
+}
+
+.menu .btn {
+	display: block;
+	padding: 20px;
+	background-image: linear-gradient(to right, #1F1C2C 0%, #928DAB 51%, #1F1C2C 100%);
+	color: white;
+	text-decoration: none;
+	box-sizing: border-box;
+	font-weight: bold;
+}
+
+.menu .btn:hover { 
+	background-position: right center; 
+}
